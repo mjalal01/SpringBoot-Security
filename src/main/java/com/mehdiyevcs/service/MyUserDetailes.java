@@ -21,7 +21,7 @@ public class MyUserDetailes implements UserDetailsService {
         User user = null;
         user = userRepo.findByUsername(username);
 
-        if (user.equals(null))
+        if (user==null)
             throw new UsernameNotFoundException("Username Not Found!");
 
         UserBuilder builder = org.springframework.security.core.userdetails.User.builder();
