@@ -50,6 +50,7 @@ public class SecurityConfig  extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder();
     }
 
+    //For Experimenting using both database and inMemory Authentication
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 
