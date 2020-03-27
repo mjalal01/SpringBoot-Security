@@ -1,5 +1,5 @@
-insert into users(username,password,role) values ('jalal01','jalal1228','USER');
-insert into users(username,password,role) values ('jalal','jalal','ADMIN');
+--insert into users(username,password,role) values ('jalal01','jalal1228','USER');
+--insert into users(username,password,role) values ('jalal','jalal','ADMIN');
 
 insert into users(username,password,role)
 values ('djalal','$2y$10$hv45UPu6uDIBGJHZ1nTCDucY2vrZpEyPtgiygas7IFjvph4hjkGLC','USER');
